@@ -5,21 +5,20 @@
 @tailwind utilities;
 
 .dark {
-    --background: #061813;
+    --background: #13262f;
     --foreground: #ffffff;
     --unique: #3ffac5;
 }
 
 .light {
     --background: #ffffff;
-    --foreground: #333333;
+    --foreground: #0a0908;
     --unique: #008d6d;
 }
 
 :root {
     font-family: "Roboto", serif;
 }
-
 
 html {
     scroll-behavior: smooth;
