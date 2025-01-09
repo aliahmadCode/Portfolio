@@ -67,6 +67,7 @@ export default function Page() {
                     </span>
                 </div>
 
+
                 <div className=" light-white-text px-5 py-[4px]">
                     <div className="flex items-center gap-4">
                         <Image src={c} alt="C" width={30} />
@@ -77,8 +78,6 @@ export default function Page() {
                         <Image src={nextjs} alt="NextJs" width={30} />
                     </div>
                 </div>
-
-
 
                 <div className={`light-white-text text-[22px] font-mono mt-6 mb-4`}>Projects</div>
                 <div className=" light-white-text px-5 py-[2px]">
@@ -108,11 +107,33 @@ export default function Page() {
                 </div>
                 <div className=" light-white-text px-5 py-[2px]">
                     • Using&nbsp;
-                    <Link href={"https://wiki.archlinux.org/title/Main_page"} target="_blank" className="italic  text-[#FFD700] hover:underline cursor-pointer">ArchLinux</Link>
+                    <Link href={"https://wiki.archlinux.org/title/Main_page"}
+                        target="_blank" className="italic  text-[#FFD700] hover:underline cursor-pointer"
+                    >ArchLinux</Link>
                 </div>
 
 
+                <div className={`light-white-text text-[22px] font-mono mt-6 mb-4`}>Social Links</div>
+                <div className=" light-white-text px-5 py-[2px]">
+                    •&nbsp;
+                    <Link href={"https://www.linkedin.com/in/ali-ahmad-994b2227a/"}
+                        target="_blank" className="italic  text-[#FFD700] hover:underline cursor-pointer"
+                    >LinkedIn</Link>
+                </div>
 
+                <div className=" light-white-text px-5 py-[2px]">
+                    •&nbsp;
+                    <Link href={"https://github.com/aliahmadCode"}
+                        target="_blank" className="italic  text-[#FFD700] hover:underline cursor-pointer"
+                    >Github</Link>
+                </div>
+
+                <div className=" light-white-text px-5 py-[2px]">
+                    •&nbsp;
+                    <Link href={"https://wa.me/+923286029066"}
+                        target="_blank" className="italic  text-[#FFD700] hover:underline cursor-pointer"
+                    >WhatsApp</Link>
+                </div>
             </div>
         </div>
     );
